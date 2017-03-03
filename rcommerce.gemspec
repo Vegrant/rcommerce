@@ -9,14 +9,14 @@ Gem::Specification.new do |s|
   s.version     = Rcommerce::VERSION
   s.authors     = ["Vegrant"]
   s.email       = ["Vegrant2017@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Rcommerce."
-  s.description = "TODO: Description of Rcommerce."
-  s.license     = "MIT"
+  s.homepage    = "https://github.com/vegrant/rcommerce"
+  s.summary     = "Full featured ecommerce engine"
+  s.description = "Want to provide an easy to integrate ecommerce solution for Rails."
+  s.license     = "Apache"
 
-  s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
+  s.files = Dir["{app,config,db,lib}/**/*", "license", "Rakefile", "README.md"]
 
-  s.add_dependency "rails", "~> 5.0.2"
+  s.add_dependency "rails", "~> 5.0.0"
 
   s.add_development_dependency "sqlite3"
 end
